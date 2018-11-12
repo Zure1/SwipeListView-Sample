@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwipeListViewProject.MainPage"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" 
+             xmlns:local="clr-namespace:SwipeListViewProject"
+             xmlns:swipe="clr-namespace:SwipeListViewProject.Components.SwipeListView"
+             prism:ViewModelLocator.AutowireViewModel="True">
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <swipe:SwipeListView ItemsSource="{Binding Items}" RowHeight="100">
+            <swipe:SwipeListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <swipe:SwipeItemView 
+                                BoundItem="{Binding .}" 
+                                x:Name="loopedElement"
+                                ChangeOpacity="False">
+                                <swipe:SwipeItemView.MainContent>
+                                    <StackLayout VerticalOptions="Center">
+                                        <Label
+                                            HorizontalOptions="Center" 
+                                            VerticalOptions="Center"
+                                            Text="{Binding .}">
+                                        </Label>
+                                    </StackLayout>
+                                </swipe:SwipeItemView.MainContent>
+                                <swipe:SwipeItemView.SwipeLeftContent>
+                                    <Button HeightRequest="100" WidthRequest="80" HorizontalOptions="End" VerticalOptions="Fill" BackgroundColor="Red" Text="Right Button"></Button>
+                                </swipe:SwipeItemView.SwipeLeftContent>
+                                <swipe:SwipeItemView.SwipeRightContent>
+                                    <StackLayout 
+                                        BackgroundColor="Gray"
+                                        VerticalOptions="Fill">
+                                        <Image 
+                                            HorizontalOptions="Center"
+                                            HeightRequest="25"
+                                            WidthRequest="25"
+                                            Source="arrow.png">
+                                        </Image>
+                                        <Label 
+                                            HorizontalOptions="Center"
+                                            Text="Übergeben"
+                                            TextColor="White"
+                                            Margin="10, 5">
+                                        </Label>
+                                    </StackLayout>
+                                </swipe:SwipeItemView.SwipeRightContent>
+                            </swipe:SwipeItemView>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </swipe:SwipeListView.ItemTemplate>
+        </swipe:SwipeListView>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,13 @@
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\bin\Debug\netstandard2.0\SwipeListViewProject.deps.json
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\bin\Debug\netstandard2.0\SwipeListViewProject.dll
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\bin\Debug\netstandard2.0\SwipeListViewProject.pdb
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\SwipeListViewProject.csprojAssemblyReference.cache
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\Components\SwipeListView\SwipeItemView.xaml.g.cs
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\SwipeListViewProject.csproj.CoreCompileInputs.cache
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\SwipeListViewProject.AssemblyInfoInputs.cache
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\SwipeListViewProject.AssemblyInfo.cs
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\XamlC.stamp
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\SwipeListViewProject.dll
+G:\proj\SwipeListViewProject\SwipeListViewProject\SwipeListViewProject\obj\Debug\netstandard2.0\SwipeListViewProject.pdb
